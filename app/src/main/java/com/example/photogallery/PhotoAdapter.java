@@ -25,8 +25,8 @@ public class PhotoAdapter extends RecyclerView.Adapter<PhotoAdapter.PhotoHolder>
     public PhotoAdapter(List<Photo> items, Context contexts, PhotosDao photoD, RecyclerView recyclerVieww) {
         list = items;
         this.context = contexts;
-        photoDao=photoD;
-        recyclerView=recyclerVieww;
+        photoDao = photoD;
+        recyclerView = recyclerVieww;
     }
 
     public class PhotoHolder extends RecyclerView.ViewHolder{

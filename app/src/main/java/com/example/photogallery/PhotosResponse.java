@@ -1,14 +1,14 @@
 package com.example.photogallery;
 
 public class PhotosResponse {
-    private Photo photos;
+    private PhotoPage photos;
     private String stat;
 
-    public Photo getPhotos() {
+    public PhotoPage getPhotos() {
         return photos;
     }
 
-    public void setPhotos(Photo photos) {
+    public void setPhotos(PhotoPage photos) {
         this.photos = photos;
     }
 
